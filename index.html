@@ -7,8 +7,12 @@
     <title>Document</title>
   </head>
   <body>
-    <p class="all">Title: all</p>
+    <h2 class="all">Title: all</h2>
+    <p class="all">hello all</p>
     <p class="all">あいうえお</p>
+    <h2 class="all2">Title: all2</h2>
+    <p class="all2">hello all2</p>
+    <p class="all2">あいうえお</p>
     <p class="system">Title: system</p>
     <p class="system">あいうえお</p>
     <p class="apple">Title: apple</p>
@@ -32,11 +36,17 @@
     <p class="roboto">あいうえお</p>
   </body>
   <style>
-    * {
+    p {
       font-size: 16px;
     }
     .all {
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-family: Helvetica Neue, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+        'BIZ UDPGothic', Meiryo, sans-serif;
+    }
+    .all2 {
+      font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue,
+        'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo,
+        sans-serif;
     }
     .system {
       font-family: system-ui;
@@ -57,13 +67,13 @@
       font-family: Helvetica Neue;
     }
     .hiragino-sans {
-      font-family: "Hiragino Sans";
+      font-family: 'Hiragino Sans';
     }
     .hiragino-kaku {
-      font-family: "Hiragino Kaku Gothic ProN";
+      font-family: 'Hiragino Kaku Gothic ProN';
     }
     .udp {
-      font-family: "BIZ UDPGothic";
+      font-family: 'BIZ UDPGothic';
     }
     .roboto {
       font-family: Roboto;
